@@ -18,7 +18,7 @@ const SideNav = () => {
   ];
 
   return (
-    <div className="h-screen max-w-[300px] flex flex-col justify-between p-4 bg-white">
+    <div className="h-screen w-[300px] flex flex-col justify-between p-4 bg-white">
       <div>
         <h1 className="text-xl text-center mb-6 mt-[56px] ">@DOSOMECODING</h1>
         {navList.map((nav) => {
