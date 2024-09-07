@@ -21,7 +21,7 @@ const TopMenu = () => {
           <li className=" flex items-center justify-between mb-2 cursor-pointer rounded-sm p-3 transition duration-300 ease-in-out hover:bg-[#f3f3f7]">
             Profile <FaUserCircle className="text-xl" />
           </li>
-          <li className="flex items-center justify-between cursor-pointer rounded-sm p-3 transition duration-300 ease-in-out hover:bg-[#f3f3f7]">
+          <li className="flex items-center justify-between cursor-pointer rounded-md p-3 transition duration-300 ease-in-out hover:bg-[#f3f3f7] ">
             Logout <CiLogout className="text-xl" />
           </li>
         </ul>

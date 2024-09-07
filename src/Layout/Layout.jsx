@@ -19,7 +19,7 @@ const Layout = ({ tittle, children }) => {
         max-w-[350px]
         mx-auto"
         >
-          <div className="mt-2 mx-auto">{children}</div>
+          <div className="mt-6 mx-auto">{children}</div>
         </div>
       </div>
     </div>
