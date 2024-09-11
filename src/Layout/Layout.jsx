@@ -8,7 +8,7 @@ const Layout = ({ tittle, children }) => {
       <div className="hidden lg:block">
         <SideNav />
       </div>
-      <div className="flex-grow bg-[#F3F3F7] h-screen">
+      <div className="flex-grow bg-[#F3F3F7] xl:h-screen h-full">
         <TopNav tittle={tittle} />
         <div
           className="

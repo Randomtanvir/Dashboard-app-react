@@ -21,10 +21,20 @@ const Dashboard = () => {
             <Transaction />
           </div>
           <div className="col-span-full lg:col-span-1">
-            <CartInfo gridImg={dotImg} isWhite={true} />
+            <CartInfo
+              gridImg={dotImg}
+              isWhite={true}
+              btn="Loans"
+              text="Learn more about Loans – Keep your Bitcoin, access it’s value without selling it"
+            />
           </div>
           <div className="col-span-full lg:col-span-1">
-            <CartInfo gridImg={gridImg} isWhite={false} />
+            <CartInfo
+              gridImg={gridImg}
+              isWhite={false}
+              btn="Contact"
+              text="Learn more about our real estate, mortgage, and  corporate account services"
+            />
           </div>
         </div>
       </Layout>

@@ -1,7 +1,7 @@
 import React from "react";
 
 // eslint-disable-next-line react/prop-types
-const CartInfo = ({ gridImg, isWhite }) => {
+const CartInfo = ({ gridImg, isWhite, btn, text }) => {
   return (
     <div
       style={{ "--image-url": `url(${gridImg})` }}
@@ -14,15 +14,16 @@ const CartInfo = ({ gridImg, isWhite }) => {
           !isWhite ? "bg-white text-[#171717]" : "bg-[#5F00D9] text-white"
         } rounded-full inline p-1`}
       >
-        Loans
+        {btn}
       </h6>
       <p
         className={` ${
           isWhite ? " text-[#171717]" : " text-white"
         } text-[18px] font-semibold py-4 `}
       >
-        Learn more about Loans – Keep your Bitcoin,
-        <br /> access it’s value without selling it
+        {text}
+        {/* Learn more about Loans – Keep your Bitcoin,
+        <br /> access it’s value without selling it */}
       </p>
     </div>
   );
