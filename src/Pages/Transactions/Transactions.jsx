@@ -1,8 +1,8 @@
 import React from "react";
 import Layout from "../../Layout/Layout";
-import TransactionTable from "./components/TransactionTable";
 import Button from "../../Components/Button";
 import { GrDownload } from "react-icons/gr";
+import TransactionTabs from "./components/TransactionTabs";
 
 const Transactions = () => {
   return (
@@ -13,7 +13,9 @@ const Transactions = () => {
             <GrDownload className="inline mr-2 text-base" /> Export CSV
           </Button>
         </div>
-        <TransactionTable />
+        <div className=" bg-white rounded-lg p-4">
+          <TransactionTabs />
+        </div>
       </Layout>
     </>
   );
